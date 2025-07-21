@@ -63,13 +63,13 @@ const Hero = () => {
             
             {/* Social Icon Buttons */}
             <div className="flex gap-4">
-              <Button size="lg" variant="outline" className="cyber-border hover:bg-muted/50 p-4">
+              <Button size="lg" variant="outline" className="cyber-border hover:bg-muted/50 p-4" onClick={() => window.open('https://github.com/shuvonsec', '_blank')}>
                 <Github className="w-7 h-7" />
               </Button>
-              <Button size="lg" variant="outline" className="cyber-border hover:bg-muted/50 p-4">
+              <Button size="lg" variant="outline" className="cyber-border hover:bg-muted/50 p-4" onClick={() => window.open('https://linkedin.com/in/shuvonsec', '_blank')}>
                 <Linkedin className="w-7 h-7" />
               </Button>
-              <Button size="lg" variant="outline" className="cyber-border hover:bg-muted/50 p-4">
+              <Button size="lg" variant="outline" className="cyber-border hover:bg-muted/50 p-4" onClick={() => window.open('https://tryhackme.com/p/shuvonsec', '_blank')}>
                 <Shield className="w-7 h-7" />
               </Button>
             </div>
