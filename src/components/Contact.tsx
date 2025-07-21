@@ -33,9 +33,9 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: 'github.com/shuvonsec' },
-    { icon: Linkedin, label: 'LinkedIn', href: 'linkedin.com/in/shuvonsec' },
-    { icon: Instagram, label: 'Instagram', href: 'instagram.com/shuvonsec' }
+    { icon: Github, label: 'GitHub', href: 'https://github.com/shuvonsec' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/shuvonsec' },
+    { icon: Instagram, label: 'Instagram', href: 'https://instagram.com/shuvonsec' }
   ];
 
   return (

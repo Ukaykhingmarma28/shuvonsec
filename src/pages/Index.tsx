@@ -35,13 +35,13 @@ const Index = () => {
                 Ethical hacker & penetration tester specializing in web application security and bug bounty hunting.
               </p>
               <div className="flex gap-4">
-                <a href="github.com/shuvonsec" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://github.com/shuvonsec" className="text-muted-foreground hover:text-primary transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
-                <a href="linkedin.com/in/shuvonsec" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://linkedin.com/in/shuvonsec" className="text-muted-foreground hover:text-primary transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="instagram.com/shuvonsec" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://instagram.com/shuvonsec" className="text-muted-foreground hover:text-primary transition-colors">
                   <Instagram className="w-5 h-5" />
                 </a>
               </div>
