@@ -54,7 +54,7 @@ const Navigation = () => {
               </button>
             ))}
             <Button size="sm" className="cyber-glow bg-primary hover:bg-primary/80">
-              Hire Me
+              Book my session
             </Button>
           </div>
 
