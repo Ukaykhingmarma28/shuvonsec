@@ -48,18 +48,15 @@ const Hero = () => {
               </h1>
               <div className="mb-8">
                 <p className="text-lg md:text-xl font-mono font-medium tracking-wide">
-                  <span className="text-primary">AKA</span> <span className="text-secondary font-bold">Shuvonsec</span>
+                  <span className="text-primary">AKA</span> <span className="text-secondary font-bold">Md Shariar Shanaz Shuvon</span>
                 </p>
               </div>
               <div className="space-y-4 max-w-2xl">
                 <p className="text-base md:text-lg text-foreground leading-relaxed">
-                  I am a full-time student of <span className="text-accent font-semibold">Power Engineering</span> and a part-time learner at Cyber Security stuffs.
+                I’m a <span className="text-primary font-bold">NASA-acknowledged vulnerability researcher</span>, World’s <span className="text-primary font-bold">#1 Monthly Top Ranked user on TryHackMe</span>, ethical hacker, and cybersecurity trainer based in Malaysia.
                 </p>
                 <p className="text-base md:text-lg text-foreground leading-relaxed">
-                  Also doing Bug Bounty hunting and currently ranked <span className="text-destructive font-bold">125th on Synack Red Team</span>, <span className="text-primary font-bold">120th on Bugcrowd</span>, and have over <span className="text-secondary font-bold">3000 Reputation Points</span> on HackerOne Bug Bounty Platform.
-                </p>
-                <p className="text-base md:text-lg text-foreground leading-relaxed">
-                  I actively take part in <span className="text-accent font-semibold">CTF (Capture the flag)</span> challenges to learn new things and sharpen my skills.
+                I specialize in real-world penetration testing, vulnerability research, and cybersecurity education. My mission is to help organizations and individuals strengthen their digital security through hands-on skills, ethical hacking, and real-world knowledge.
                 </p>
               </div>
             </div>

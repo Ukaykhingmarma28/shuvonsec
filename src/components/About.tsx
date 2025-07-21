@@ -88,18 +88,19 @@ const About = () => {
             <h3 className="text-3xl font-semibold mb-8 terminal-text text-primary">whoami</h3>
             <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
               <p>
-                I'm a cybersecurity professional specializing in penetration testing and bug hunting.
-                With extensive experience in identifying and exploiting security vulnerabilities,
-                I help organizations strengthen their security posture.
+                I’m Md Shariar Shanaz Shuvon, also known as <span className="text-primary font-bold">ShuvonSec</span>, a cybersecurity professional, ethical hacker, and trainer based in Malaysia. I specialize in penetration testing and bug bounty hunting, with hands-on experience in discovering and exploiting real-world security vulnerabilities. I help organizations strengthen their security posture by identifying weaknesses before attackers do.
               </p>
               <p>
-                My expertise spans across web application security, network penetration testing,
-                mobile application security, and cloud security assessments. I believe in the
-                power of ethical hacking to create a more secure digital environment.
+                My expertise covers web application security, network penetration testing, mobile app security, and cloud security assessments. I use practical offensive security techniques to uncover critical issues and help teams build more secure systems.
               </p>
               <p>
-                When I'm not hunting for bugs or conducting security assessments, I'm researching
-                emerging threats, developing security tools, and contributing to the cybersecurity community.
+                In addition to technical work, I’m actively involved in cybersecurity training and education, conducting workshops and sessions to share real-world knowledge with students, professionals, and security teams. My approach focuses on practical, up-to-date techniques that reflect today’s threat landscape.
+              </p>
+              <p>
+                Outside of professional engagements, I spend time researching emerging threats, developing custom security tools, and contributing to the global cybersecurity community.
+              </p>
+              <p>
+                As I always say: <span className="text-primary font-bold">“I don’t learn to hack — I hack to learn.”</span>
               </p>
             </div>
           </div>

@@ -39,7 +39,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <Terminal className="w-8 h-8 text-primary cyber-glow" />
-            <span className="text-xl font-bold terminal-text">CyberSec</span>
+            <span className="text-xl font-bold terminal-text">ShuvonSec</span>
           </div>
 
           {/* Desktop Navigation */}

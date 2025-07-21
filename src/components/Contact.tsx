@@ -2,40 +2,40 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, MessageSquare, Send, Github, Linkedin, Twitter, MapPin, Phone, Shield } from 'lucide-react';
+import { Mail, MessageSquare, Send, Github, Linkedin, Instagram, MapPin, Phone, Shield } from 'lucide-react';
 
 const Contact = () => {
   const contactMethods = [
     {
       icon: Mail,
       title: 'Email',
-      description: 'security@cyberpro.dev',
+      description: 'shuvonsec@gmail.com',
       action: 'Send Email'
     },
     {
       icon: MessageSquare,
       title: 'Discord',
-      description: 'CyberSec#1337',
+      description: 'shuvonsec',
       action: 'Message'
     },
     {
       icon: Phone,
       title: 'Signal',
-      description: '+1-555-CYBER-SEC',
+      description: '+60 11-3763 4679',
       action: 'Call'
     },
     {
       icon: MapPin,
       title: 'Location',
-      description: 'Remote / Global',
-      action: 'Timezone: UTC'
+      description: 'Selangor, Malaysia',
+      action: 'Timezone: GMT+8'
     }
   ];
 
   const socialLinks = [
-    { icon: Github, label: 'GitHub', href: '#' },
-    { icon: Linkedin, label: 'LinkedIn', href: '#' },
-    { icon: Twitter, label: 'Twitter', href: '#' }
+    { icon: Github, label: 'GitHub', href: 'github.com/shuvonsec' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'linkedin.com/in/shuvonsec' },
+    { icon: Instagram, label: 'Instagram', href: 'instagram.com/shuvonsec' }
   ];
 
   return (

@@ -35,7 +35,7 @@ const Skills = () => {
     {
       title: 'Bug Hunting',
       icon: Bug,
-      skills: ['Vulnerability Research', 'Bug Bounty Programs', 'Zero-day Discovery', 'Exploit Development'],
+      skills: ['Vulnerability Research', 'Bug Bounty Programs', 'Exploit Development'],
       proficiency: 'Advanced',
       color: 'text-destructive'
     },
@@ -171,20 +171,20 @@ const Skills = () => {
           <div className="grid md:grid-cols-3 gap-6">
             <Card className="cyber-border bg-card/50 text-center">
               <CardContent className="pt-6">
-                <div className="text-3xl font-bold text-destructive mb-2">125th</div>
-                <div className="text-sm text-muted-foreground">Synack Red Team</div>
+                <div className="text-3xl font-bold text-destructive mb-2">NASA Hall of Fame</div>
+                <div className="text-sm text-muted-foreground">Recognized for responsibly disclosing a security vulnerability to NASA</div>
               </CardContent>
             </Card>
             <Card className="cyber-border bg-card/50 text-center">
               <CardContent className="pt-6">
-                <div className="text-3xl font-bold text-primary mb-2">120th</div>
-                <div className="text-sm text-muted-foreground">Bugcrowd Platform</div>
+                <div className="text-3xl font-bold text-primary mb-2">AllState Hall of Fame</div>
+                <div className="text-sm text-muted-foreground">Earned a place in the AllState (Fortune 100 company) Hall of Fame for reporting a valid vulnerability via their responsible disclosure program.</div>
               </CardContent>
             </Card>
             <Card className="cyber-border bg-card/50 text-center">
               <CardContent className="pt-6">
-                <div className="text-3xl font-bold text-secondary mb-2">3000+</div>
-                <div className="text-sm text-muted-foreground">HackerOne Reputation</div>
+                <div className="text-3xl font-bold text-secondary mb-2">World’s #1 Monthly Top Ranked on TryHackMe</div>
+                <div className="text-sm text-muted-foreground">Achieved the #1 global ranking on TryHackMe in the monthly leaderboard by completing advanced labs in web exploitation, privilege escalation, and red teaming.</div>
               </CardContent>
             </Card>
           </div>
