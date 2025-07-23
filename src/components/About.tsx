@@ -1,27 +1,23 @@
 import { Shield, Target, Search, Code } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from './ui/button';
 
 const About = () => {
   const skills = [
     {
-      icon: Shield,
-      title: 'Penetration Testing',
-      description: 'Advanced penetration testing methodologies, network security assessments, and vulnerability analysis'
+      image: 'https://thepeninsulaqatar.com/get/maximage/20250528_1748449646-469.jpg?1748449646',
+      description: 'A self-taught ethical hacker from Bangladesh, Shuvon recently made headlines after receiving an official letter of appreciation from the National Aeronautics and Space Administration (NASA).',
+      link: 'https://thepeninsulaqatar.com/article/28/05/2025/17-year-old-bangladeshi-receives-nasa-recognition-for-ethical-hacking'
     },
     {
-      icon: Search,
-      title: 'Bug Hunting',
-      description: 'Discovering and responsibly disclosing security vulnerabilities in web applications and systems'
+      image: 'https://cyberjaya.edu.my/wp-content/uploads/2025/05/Diploma-in-IT-The-Independent-Ethical-Hacker.jpg',
+      description: 'Md Shariar Shanaz Shuvon, a 17-year-old Diploma in Information Technology student at the University of Cyberjaya, was recognised as an independent security researcher by the National Aeronautics and Space Administration (NASA) under its Vulnerability Disclosure Policy (VDP).',
+      link: 'https://cyberjaya.edu.my/meet-shuvonsec-the-independent-ethical-hacker-safeguarding-the-worlds-biggest-systems-one-bug-at-a-time'
     },
     {
-      icon: Target,
-      title: 'Red Team Operations',
-      description: 'Simulating real-world attacks to test organizational security posture and incident response'
-    },
-    {
-      icon: Code,
-      title: 'Security Research',
-      description: 'Developing custom tools, exploits, and security research for emerging threat landscapes'
+      image: 'https://tds-images.thedailystar.net/sites/default/files/styles/very_big_1/public/images/2025/05/18/md_shariar_shanaz_shuvon.png',
+      description: 'Md Shariar Shanaz Shuvon, a 17-year-old self-taught ethical hacker from Bangladesh, has discovered a critical security flaw in NASA\'s cybersecurity infrastructure. The US space agency acknowledged his findings with an official letter of appreciation.',
+      link: 'https://www.thedailystar.net/tech-startup/news/17-year-old-bangladeshi-hacks-nasa-receives-appreciation-letter-3897451'
     }
   ];
 
@@ -106,15 +102,17 @@ const About = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
             <Card key={index} className="cyber-border bg-card/50 hover:bg-card transition-colors group">
               <CardHeader>
-                <skill.icon className="w-8 h-8 text-primary mb-4 group-hover:cyber-glow transition-all" />
-                <CardTitle className="text-lg">{skill.title}</CardTitle>
+                <img src={skill.image} className="w-full h-40 text-primary mb-4 group-hover:cyber-glow transition-all" />
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">{skill.description}</p>
+                <div className="flex justify-end">
+                  <a href={skill.link} className="text-sm text-muted-foreground border border-green-200 p-2">View News</a>
+                </div>
               </CardContent>
             </Card>
           ))}
