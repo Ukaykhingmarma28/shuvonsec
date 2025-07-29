@@ -285,7 +285,7 @@ const Contact = () => {
 
               {/* CAPTCHA */}
               <ReCAPTCHA
-                sitekey="6LdnmZArAAAAAK_vdWhzZEBP81klG2JnHskpt9yY"
+                sitekey="6Lf_NZMrAAAAAELcEVbtSSykTG39iwCZtFrkOzY-"
                 onChange={handleCaptchaChange}
                 ref={recaptchaRef}
               />
