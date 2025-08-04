@@ -10,7 +10,7 @@ const About = () => {
       link: 'https://thepeninsulaqatar.com/article/28/05/2025/17-year-old-bangladeshi-receives-nasa-recognition-for-ethical-hacking'
     },
     {
-      image: 'https://cyberjaya.edu.my/wp-content/uploads/2025/05/Diploma-in-IT-The-Independent-Ethical-Hacker.jpg',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Md_Shariar_Shanaz_Shuvon_in_2025.jpg',
       description: 'Md Shariar Shanaz Shuvon, a 17-year-old Diploma in Information Technology student at the University of Cyberjaya, was recognised as an independent security researcher by the National Aeronautics and Space Administration (NASA) under its Vulnerability Disclosure Policy (VDP).',
       link: 'https://cyberjaya.edu.my/meet-shuvonsec-the-independent-ethical-hacker-safeguarding-the-worlds-biggest-systems-one-bug-at-a-time'
     },
