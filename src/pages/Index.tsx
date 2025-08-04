@@ -63,9 +63,6 @@ const Index = () => {
             <p className="text-muted-foreground terminal-text">
               © 2025 ShuvonSec Professional. All rights reserved. | Securing the digital frontier.
             </p>
-            <p className="text-sm text-muted-foreground/70 mt-2">
-              Built with React, TypeScript & Tailwind CSS
-            </p>
           </div>
         </div>
       </footer>
