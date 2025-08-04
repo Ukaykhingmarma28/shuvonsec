@@ -61,7 +61,7 @@ const Index = () => {
 
           <div className="border-t border-cyber-gray/30 pt-8 text-center">
             <p className="text-muted-foreground terminal-text">
-              © 2025 ShuvonSec Professional. All rights reserved. | Securing the digital frontier.
+              © 2025 ShuvonSec. All rights reserved. | Securing the digital frontier.
             </p>
           </div>
         </div>
