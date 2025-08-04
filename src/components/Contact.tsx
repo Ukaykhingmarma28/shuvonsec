@@ -22,7 +22,7 @@
 //       icon: Phone,
 //       title: 'WhatsApp',
 //       description: '+60 11-3763 4679',
-//       action: 'Call'
+//       action: 'Send Message'
 //     },
 //     {
 //       icon: MapPin,
