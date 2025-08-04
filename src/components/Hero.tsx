@@ -39,7 +39,7 @@ const Hero = () => {
           <div className="space-y-8">
             <div>
               <div className="mb-2">
-                <p className="text-sm md:text-base text-muted-foreground font-mono tracking-wider uppercase">
+                <p className="text-sm md:text-base text-muted-foreground font-mono tracking-wider uppercase pt-4">
                   Cybersecurity Researcher
                 </p>
               </div>
@@ -140,11 +140,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </div>
-        
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-          <ChevronDown className="w-8 h-8 text-primary mx-auto" />
         </div>
       </div>
     </section>
