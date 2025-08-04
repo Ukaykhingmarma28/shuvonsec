@@ -10,16 +10,7 @@ const Skills = () => {
       skills: ['Web Application Testing', 'Network Penetration Testing', 'Wireless Security', 'Social Engineering'],
       proficiency: 'Advanced',
       color: 'text-primary'
-    },
-    {
-      title: 'Web Security',
-      icon: Globe,
-      skills: ['OWASP Top 10', 'XSS & CSRF', 'SQL Injection', 'Authentication Bypass'],
-      proficiency: 'Expert',
-      color: 'text-secondary'
-    },
-    
-    
+    },   
     {
       title: 'Bug Hunting',
       icon: Bug,
@@ -40,14 +31,6 @@ const Skills = () => {
       skills: ['Python', 'JavaScript', 'Bash Scripting', 'PowerShell', 'Go', 'C/C++'],
       proficiency: 'Advanced',
       color: 'text-primary'
-    },
-    
-    {
-      title: 'Forensics',
-      icon: Search,
-      skills: ['Digital Forensics', 'Incident Response', 'Memory Analysis', 'Log Analysis'],
-      proficiency: 'Intermediate',
-      color: 'text-destructive'
     },
   ];
 
