@@ -20,7 +20,7 @@
 //     },
 //     {
 //       icon: Phone,
-//       title: 'Signal',
+//       title: 'WhatsApp',
 //       description: '+60 11-3763 4679',
 //       action: 'Call'
 //     },
