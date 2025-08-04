@@ -18,22 +18,8 @@ const Skills = () => {
       proficiency: 'Expert',
       color: 'text-secondary'
     },
-    <!-- {
-      title: 'Mobile Security',
-      icon: Smartphone,
-      skills: ['Android Security', 'iOS Security', 'Mobile App Analysis', 'Static/Dynamic Analysis'],
-      proficiency: 'Advanced',
-      color: 'text-accent'
-      
-    },
-      -->
-    {
-      title: 'Cloud Security',
-      icon: Cloud,
-      skills: ['AWS Security', 'Azure Security', 'Container Security', 'Infrastructure as Code'],
-      proficiency: 'Intermediate',
-      color: 'text-primary'
-    },
+    
+    
     {
       title: 'Bug Hunting',
       icon: Bug,
@@ -62,20 +48,7 @@ const Skills = () => {
       proficiency: 'Advanced',
       color: 'text-primary'
     },
-    {
-      title: 'Cryptography',
-      icon: Lock,
-      skills: ['Encryption/Decryption', 'Hash Functions', 'Digital Signatures', 'PKI'],
-      proficiency: 'Intermediate',
-      color: 'text-secondary'
-    },
-    {
-      title: 'Network Security',
-      icon: Zap,
-      skills: ['Firewall Configuration', 'IDS/IPS', 'VPN Security', 'Network Protocols'],
-      proficiency: 'Advanced',
-      color: 'text-accent'
-    },
+    
     {
       title: 'Forensics',
       icon: Search,
@@ -83,13 +56,6 @@ const Skills = () => {
       proficiency: 'Intermediate',
       color: 'text-destructive'
     },
-    {
-      title: 'Database Security',
-      icon: Database,
-      skills: ['SQL Security', 'NoSQL Security', 'Database Hardening', 'Access Control'],
-      proficiency: 'Intermediate',
-      color: 'text-primary'
-    }
   ];
 
   const getProficiencyColor = (proficiency: string) => {
