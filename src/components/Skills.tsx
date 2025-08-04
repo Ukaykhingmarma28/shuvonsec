@@ -18,13 +18,15 @@ const Skills = () => {
       proficiency: 'Expert',
       color: 'text-secondary'
     },
-    {
+    <!-- {
       title: 'Mobile Security',
       icon: Smartphone,
       skills: ['Android Security', 'iOS Security', 'Mobile App Analysis', 'Static/Dynamic Analysis'],
       proficiency: 'Advanced',
       color: 'text-accent'
+      
     },
+      -->
     {
       title: 'Cloud Security',
       icon: Cloud,
