@@ -206,7 +206,7 @@ const Contact = () => {
       action: 'Send Email',
     },
     {
-      icon: Message Square,
+      icon: MessageSquare,
       title: 'Discord',
       description: 'shuvonsec',
     },
