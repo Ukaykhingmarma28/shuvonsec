@@ -206,22 +206,19 @@ const Contact = () => {
       action: 'Send Email',
     },
     {
-      icon: MessageSquare,
+      icon: Message Square,
       title: 'Discord',
       description: 'shuvonsec',
-      action: 'Message',
     },
     {
       icon: Phone,
-      title: 'Signal',
+      title: 'Phone',
       description: '+60 11-3763 4679',
-      action: 'Call',
     },
     {
       icon: MapPin,
       title: 'Location',
       description: 'Selangor, Malaysia',
-      action: 'Timezone: GMT+8',
     },
   ];
 
@@ -316,9 +313,6 @@ const Contact = () => {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground text-sm mb-3">{method.description}</p>
-                    <Button variant="outline" size="sm" className="cyber-border text-xs">
-                      {method.action}
-                    </Button>
                   </CardContent>
                 </Card>
               ))}
