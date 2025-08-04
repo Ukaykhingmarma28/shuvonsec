@@ -252,7 +252,7 @@ const Contact = () => {
 
             <form
               onSubmit={handleSubmit}
-              action="https://formspree.io/f/meozkvwz"
+              action="https://formspree.io/f/mzzvankd"
               method="POST"
               className="space-y-4 h-full flex flex-col"
             >
@@ -285,7 +285,7 @@ const Contact = () => {
 
               {/* CAPTCHA */}
               <ReCAPTCHA
-                sitekey="6Lf_NZMrAAAAAELcEVbtSSykTG39iwCZtFrkOzY-"
+                sitekey="6LfSN5orAAAAAIfTfm741j7ViAmB6wYw9TFi4NfA"
                 onChange={handleCaptchaChange}
                 ref={recaptchaRef}
               />
