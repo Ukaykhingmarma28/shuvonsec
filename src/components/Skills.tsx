@@ -28,13 +28,6 @@ const Skills = () => {
       color: 'text-destructive'
     },
     {
-      title: 'Red Team Operations',
-      icon: Target,
-      skills: ['Advanced Persistent Threats', 'Command & Control', 'Lateral Movement', 'Post-exploitation'],
-      proficiency: 'Advanced',
-      color: 'text-secondary'
-    },
-    {
       title: 'Security Tools',
       icon: Terminal,
       skills: ['Burp Suite', 'Metasploit', 'Nmap', 'Wireshark', 'Nessus', 'OWASP ZAP'],
